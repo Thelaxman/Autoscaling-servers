@@ -55,3 +55,13 @@ On AWS, we also have a similar feature that we will use in this project. AWS off
 
 ---
 
+## Setup Instructions:
+ - Step 1:Create VPC with public and private subnet configured.
+ - Step 2:Configure security groups with appropriate inbound and outbound rules.
+ - Step 3:Launch EC2 Instances(virtual servers).
+ - Step 4:Create Target Group and select your VPC and its public subnets only.
+ - Step 5:Create an Application Load balancer and attach the target group that you created to this application load balancer.
+ - Step 6:Set up a Route53 and alias it to the Application Load Balancer that you created.
+ - Step 7:Create Autoscaling Group and select your AMI from the Launch template.
+ - Step 8:Setup SNS services for alarms when the CPU utilization goes beyond the normal percentage.
+
