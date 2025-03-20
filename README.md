@@ -53,8 +53,6 @@ On AWS, we also have a similar feature that we will use in this project. AWS off
 10. **Monitoring and Logging**
     - Set up CloudWatch for monitoring metrics and logging.
 
----
-
 ## Setup Instructions:
  - Step 1:Create VPC with public and private subnet configured.
  - Step 2:Configure security groups with appropriate inbound and outbound rules.
